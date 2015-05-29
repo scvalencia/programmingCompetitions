@@ -20,7 +20,7 @@ program UVA499(input, output);
 	function reverse(number : integer) : char;
 	begin
 		if number in [0 .. 25] then
-			reverse := chr(number + 64)
+			reverse := chr(number + 64r)
 		else if number in [26 .. 51] then
 			reverse := chr(number + 71)		 	
 	end;
