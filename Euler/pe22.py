@@ -1,7 +1,7 @@
 import string
 
 def handle_file():
-	file_object = open('p22_names.txt', 'r')
+	file_object = open('pe22_names.txt', 'r')
 	names = [_.split(',') for _ in file_object]
 	return sorted([str(_).replace('"', '') for _ in names[0]])
 
@@ -13,7 +13,6 @@ def solve(names):
 	for i, name in enumerate(names):
 		i = i + 1
 		ans += (i * get_score(name))
-		
 	return ans
 
 if __name__ == '__main__':
