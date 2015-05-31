@@ -25,6 +25,7 @@ class pe12 {
 				else ans += 1;
 			}
 		}
+		
 		return ans;
 	}
 	
