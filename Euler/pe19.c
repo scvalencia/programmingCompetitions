@@ -26,11 +26,11 @@ bool isLeap(int year) {
 }
 
 int main(int argc, char const *argv[]) {
-	int days[] = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+	int days[] = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31}; // Useless
 	int year, month, day = 1, ans = 0;
 	for(year = 1901; year <= 2000; year++) {
-		bool leap = isLeap(year);
-		days[2] = (leap? 29 : 28);
+		bool leap = isLeap(year); // Useless
+		days[2] = (leap? 29 : 28); // Uselessgit status
 		for(month = 1; month <= 12; month++)
 			if(dayOfWeek(month, day, year) == 6)
 				ans++;
