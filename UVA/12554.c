@@ -20,7 +20,7 @@ int main(int argc, char const *argv[]) {
 	int names;
 	scanf("%d", &names);
 	if(names == 0)
-		exit(0º);
+		exit(0);
 	char persons[names][100];
 	bool reg[names];
 	int i = 0, j = 0;
