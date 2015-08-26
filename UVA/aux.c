@@ -1,39 +1,88 @@
-#include<stdio.h>
-#include<math.h>
+#include <stdio.h>
+#include <math.h>
+#include <string.h>
+#include <stdbool.h>
 
-int main()
- {
- long int n;
-while(scanf("%ld",&n)==1 )
-    {
-    if (is_prime(n)!=1)
-     printf ("%ld is not prime.\n", n);
-  else
-    {
-        int n1=rev(n);
-    if ( is_prime(n1)==1 && n1!=n )
-                printf ("%ld is emirp.\n",n);
+int primes[7000];
+bool marks[60000];
 
-            else
-                printf ("%ld is prime.\n",n);
+
+int sieve2(int n)
+{
+
+    int i, j, k;
+
+    memset(marks,true,n);
+
+    marks[0] = marks[1] = false;
+
+    for (i=4 ; i<n ; i+=2)
+        marks[i]=false;
+
+    for (i=3 ; i*i<n ; i+=2)
+    {
+        if (marks[i]==true)
+        {
+            for (j=i*i ; j<n ; j+=(2*i))
+                marks[j]=false;
+        }
+
+    }
+
+    for (i=2, j=0 ; i<=n ; i++)
+    {
+        if (marks[i]==true)
+        {
+            primes[j++]=i;
         }
     }
-    return 0;
-  }
-int is_prime (long int x)
- { int i;
-    for ( i = 2; i * i <= x; i++)
+
+    return j-1;
+
+}
+
+int main() {
+
+    int i, j, q;
+    int mark=sieve2(60000);
+
+
+    while (scanf("%d",&q) && q)
     {
-    if (x % i == 0)
-    return 0;
+
+        printf("%d =",q);
+
+        if (q<0)
+        {
+          printf(" -1 x");
+          q=-q;
+        }
+
+        if (q==1)
+        {
+            printf(" 1\n");
+            continue;
+        }
+
+        for (j=0 ; primes[j]<q && j<mark ; j++)
+        {
+            while (q%primes[j]==0)
+            {
+                q/=primes[j];
+                if (q>1)printf(" %d x",primes[j]);
+                else printf(" %d",primes[j]);
+
+            }
+        }
+
+        if (q>1)
+            printf(" %d",q);
+
+        printf("\n");
     }
-    return 1;
-   }
-int rev(unsigned int n)
-  {
-    unsigned int r = 0;
-    do
-        r = r * 10 + n % 10;
-    while ((n /= 10) > 0);
-    return r;
-  }
+
+
+
+    return 0;
+
+}
