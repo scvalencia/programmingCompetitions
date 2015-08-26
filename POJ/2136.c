@@ -37,7 +37,7 @@ int main(int argc, char const *argv[]) {
 
 	while ((ch = getchar()) != EOF) {
 		if (isalpha(ch))
-    		current = ++array[ch - 65];
+    		current = ++(*(array + (ch - 65)));
     	max = (current > max) ? current : max;
 	}
 
