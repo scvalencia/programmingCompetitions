@@ -32,3 +32,21 @@
 (http://www.quora.com/What-are-the-best-math-blogs)
 (http://www.mathishtoenglish.com/the-best-math-blogs)
 (http://blogs.telegraph.co.uk/technology/iandouglas/8520337/Five_of_the_best_mathematics_blogs/)
+
+
+Arefin-Art of Programming Contest (ING).pdf
+Aziz-Algorithms for interviews (ING).pdf
+Aziz-Elements of programming interviews (ING).pdf
+Bentley-More programming pearls (ING).pdf
+Bentley-Programming pearls (ING).pdf
+Halim-Competitive Programming (ING).pdf
+Laakmann-Coding interview (ING).pdf
+Levitin-Algorithmic puzzles (ING).pdf
+McDowell-Cracking the code interview (ING).pdf
+Mongan-Programming interviews exposed (ING).pdf
+Nimajeb-The hitchhikers guide to programming contests (ING).pdf
+Parberry-Problems on Algorithms (ING).pdf
+Shen-Algorithms and programming (ING).pdf
+Shen-Algorithms and programming problems and solutions (ING).pdf
+Skiena-Programming Challenges (ING).pdf
+Skiena-The algorithm design manual (ING).pdf
