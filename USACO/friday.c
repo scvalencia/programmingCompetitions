@@ -48,14 +48,19 @@ struct date get_next_date(struct date arg) {
         ans.d_day = 1;
     } else {
         ans.d_year = y;
+        if(is_leap(y) && m == 2) {
+            ans.d_year = y;
+            if(d == 28) {
+                ans.d_month = m;
+                ans.d_day = d + 1;
+            } if(d == 29) {
+                ans.d_month = m + 1;
+                ans.d_day = 1;
+            }
+        }
         if(d == DAYS[m]) {             
-            ans.d_month = m + 1;
-            ans.d_day = 1;
-            if(m == 2)
-                if(is_leap(y)) {
-                    ans.d_day = 29;
-                    ans.d_month = m;
-                }            
+            ans.d_month = (m < 12) ? m + 1 : 1;
+            ans.d_day = 1;           
         } else {
             ans.d_day = d + 1;
             ans.d_month = m;
@@ -99,7 +104,7 @@ int main(int argc, char const *argv[]) {
 
     struct date current_date = init_date(INITIAL_YEAR, 1, 1);
 
-    while(current_date.d_day != 31 && current_date.d_month != 12 && current_date.d_year != (INITIAL_YEAR + n)) {
+    while(current_date.d_day != 31 || current_date.d_month != 12 || current_date.d_year != (INITIAL_YEAR + n - 1)) {
         print_date(current_date);
         if(current_date.d_day == 13) {
             this_day = get_day(current_date);
@@ -109,8 +114,8 @@ int main(int argc, char const *argv[]) {
     }
 
     fprintf(fout, "%d %d %d %d %d %d %d\n", 
-        ans[SUNDAY], ans[MONDAY], ans[TUESDAY], 
-        ans[WEDNESDAY], ans[THURSDAY], ans[FRIDAY], ans[SATURDAY]);
+        ans[SATURDAY], ans[SUNDAY], ans[MONDAY], ans[TUESDAY], 
+        ans[WEDNESDAY], ans[THURSDAY], ans[FRIDAY]);
 
 
     return 0;
