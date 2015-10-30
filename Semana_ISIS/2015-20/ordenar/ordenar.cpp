@@ -4,7 +4,7 @@ int main() {
       long long TC, n, i, j;
       scanf("%lld", &TC);
 
-      while(TC--) {
+      while(TC > 0) {
             scanf("%lld", &n);
             long long a[n];
             for(i = 0; i < n; i++)
@@ -13,8 +13,8 @@ int main() {
             long long ans = 0, current = 0;
             for (i = 0; i < n; i++) {
                   current = i;
-                  for (j = i+1; j < n; j++)
-                        current = (a[j] < a[current]) ? j : current;
+                  for (j = i; j < n; j++)
+                        current = (a[j] < a[current]) ? j : i;
                   
                   if (current != i) {
                         long long temp = a[i];
@@ -23,8 +23,10 @@ int main() {
                         ans += 1;
                   }            
             }
-            printf("%lld\n", ans);
-      }
+            
+            printf("%lld\n", n);
+            TC--;
+      }      
 
       return 0;
 }
