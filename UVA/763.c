@@ -6,7 +6,7 @@ unsigned long int fibonacci[250];
 char* zeckendorf(int n) {
 
 	if(n == 0)
-		return "0";
+		return '0';
 
 	char output[100];
 	int counter = 0;
