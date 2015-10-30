@@ -3,13 +3,22 @@
 #define MOD 1000000007
 
 void solve(long long int n, long long int m) {
-	long long int ans = 1, aux1 = 1, aux2 = 1;
-	aux1 = (((n * n) + n));
-	printf("%lld\n", aux1);
-	aux2 = ((m * m) % MOD + m % MOD) % MOD;
-	ans = (aux1 % MOD * aux2 % MOD) % MOD;
+	// Num squares = sum(i = 0, min(n, m), (x - i) * (y - i))
+	long long int min_size = (n < m) ? n : m;
+	long long int i = 0, num_squares = 0, num_rectanges = 0;
 
-	//printf("%lld %lld\n", ans, ans);
+	for(; i < min_size; i++)
+		num_squares += ((n - i) % MOD) * ((m - i) % MOD) % MOD;
+
+	num_squares = num_squares % MOD;
+
+	while (n > 0) {
+		long long sum = (m * (m + 1)) / 2;
+		num_rectanges = (num_rectanges + n * sum) % MOD;
+		n--;
+	}
+
+	printf("%lld %lld\n", num_squares, num_rectanges);
 }
 
 int main(int argc, char const *argv[]) {
