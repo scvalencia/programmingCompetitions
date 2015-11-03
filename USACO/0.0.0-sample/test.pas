@@ -1,5 +1,5 @@
 {
-ID: sc.vale2
+ID: **.****#
 PROG: test
 LANG: PASCAL
 }
