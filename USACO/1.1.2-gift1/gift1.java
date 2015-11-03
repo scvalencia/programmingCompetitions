@@ -1,5 +1,5 @@
 /*
-ID: sc.vale2
+ID: **.****#
 LANG: JAVA
 TASK: gift1
 */
