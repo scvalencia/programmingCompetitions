@@ -1,5 +1,5 @@
 /*
-ID: sc.vale2
+ID: **.****#
 LANG: C
 TASK: test
 */
