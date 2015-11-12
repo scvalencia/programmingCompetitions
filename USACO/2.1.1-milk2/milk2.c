@@ -8,57 +8,80 @@ TASK: milk2
 #include <stdlib.h>
 #include <stdbool.h>
 
-#define SIZE 5000
-#define INFTY 2000000
-#define MAX(a, b) ((a) > (b)) ? (a) : (b)
-#define MIN(a, b) ((a) < (b)) ? (a) : (b)
+#define SIZE 1000000 + 1
+#define MAX(x, y) (((x) > (y)) ? (x) : (y))
 
-struct pair {
-	int a;
-	int b;
-};
-
-bool overlaps(struct pair first, struct pair scnd) {
-	return (first.a < scnd.a)  &&  (first.b <= scnd.b);
+void fill(bool* array, int init, int end, bool value) {
+    int i = init;
+    for(; i <= end; i++)
+        *(array + i) = value;
 }
 
-int comparator(const void *v1, const void *v2) {
-    const struct pair *p1 = (struct pair *)v1;
-    const struct pair *p2 = (struct pair *)v2;
-
-    return (p1->a < p2->a) ? -1 : ((p1->a > p2->a) ? 1 : 0);
+void bounds(bool* array, int* init, int* end) {
+    int i = 0;
+    for(; i <= SIZE && *init == -1; i++)
+        if(*(array + i))
+            *init = i;
+    
+    for(i = SIZE; i >= 0 && *end == -1; i--)
+        if(*(array + i))
+            *end = i;
 }
 
 int main(int argc, char const *argv[]) {
-    FILE *fin  = fopen ("milk2.in", "r");
-    FILE *fout = fopen ("milk2.out", "w");
-    int TC, i = 0, j, n, max = -INFTY, min = INFTY;
-    struct pair* array = (struct pair*) malloc(SIZE + 3 * sizeof(struct pair));
-    fscanf(fin, "%d", &TC);
+    FILE *fin  = fopen("milk2.in", "r");
+    FILE *fout = fopen("milk2.out", "w");
 
-    while(TC--) {
-    	fscanf(fin, "%d %d", &array[i].a, &array[i].b);
-    	i++;
+    bool *array = malloc(SIZE * sizeof(bool));
+    fill(array, 0, SIZE - 1, false);
+    int N, a, b, i = 1, max_true = 0, max_false = 0, count = 0, max_total = 0;
+    int init = -1, end = -1, *p_init, *p_end;
+    p_init = &init;
+    p_end = &end;
+    bool current, value;
+
+    fscanf(fin, "%d", &N);
+
+    while(N--) {
+        fscanf(fin, "%d %d", &a, &b);
+        fill(array, a, b, true);
     }
 
-    n = i; // SIZE OF ARRAY
+    bounds(array, p_init, p_end);
 
-    qsort(array, n, sizeof(struct pair), comparator);
-
-    for(i = n - 1; i >= 0; i--) {
-    	struct pair current = array[i];
-    	max = MAX(max, current.a - current.a);
-    	for(j = i - 1; j >= 0; j--) {
-    		struct pair other = array[j];
-    		if(overlaps(current, other))
-    			max = MAX(max, other.b - current.a);
-    		else
-    			min = MIN(min, current.b - other.a);
-    	}
+    current = true;
+    for (i = init; i <= end; i++) {
+        value = *(array + i);
+        if (current == value)
+            count++;
+        else {
+            if(current && count > max_true)
+                max_true = count;
+            if (!current && count > max_false)
+                max_false = count;
+            current = value;
+            count = 1;
+        }
     }
+    /*
+    current = *(array + init);
 
-    printf("%d %d\n", min, max);
-  
-    //fprintf (fout, "%d\n", a+b);
+    for(i = init + 1; i <= end; i++) {
+        value = *(array + i);
+        count++;
+        if(current == value) {
+            if(current)
+                max_true = (count > max_true) ? count : max_true;
+            else
+                max_false = (count > max_false) ? count : max_false;
+        } else
+            count = 0; 
+        current = value;
+    }
+    */
+
+    printf("%d %d\n", max_true, max_false);
+
+    free(array);
     return 0;
 }
