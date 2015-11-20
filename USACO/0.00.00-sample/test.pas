@@ -1,8 +1,9 @@
 {
-ID: **.****#
-PROG: test
+ID: xx.xxxx#
 LANG: PASCAL
+TASK: test
 }
+
 Program Test;
 Var fin, fout: text;
     a, b: word;

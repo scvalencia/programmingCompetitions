@@ -1,8 +1,9 @@
 /*
-ID: **.****#
+ID: xx.xxxx#
 LANG: C
 TASK: test
 */
+
 #include <stdio.h>
 
 int main(int argc, char const *argv[]) {

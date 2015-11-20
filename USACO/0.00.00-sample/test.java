@@ -1,8 +1,9 @@
 /*
-ID: **.****#
+ID: xx.xxxx#
 LANG: JAVA
 TASK: test
 */
+
 import java.io.*;
 import java.util.*;
 

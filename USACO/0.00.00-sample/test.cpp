@@ -1,8 +1,9 @@
 /*
-ID: **.****#
-PROG: test
+ID: xx.xxxx#
 LANG: C++
+TASK: test
 */
+
 #include <iostream>
 #include <fstream>
 #include <string>
