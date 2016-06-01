@@ -18,7 +18,7 @@ int main(int argc, char const *argv[]) {
 	while (TC--) {
 		scanf("%d\n\n", &n);
 		int* parent = malloc(sizeof(int) * (n + 1));
-		int* size = malloc(sizeof(int) * (n + 1));
+		int* size = malloc(sizeof(int) * (n + 1int));
 
 		yes = 0; no = 0;
 
