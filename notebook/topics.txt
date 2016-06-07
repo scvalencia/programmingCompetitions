@@ -1,0 +1,33 @@
+- Fundamentals
+	* I/O techniques
+	* Data types
+	* Hints and shortcuts
+	* Algorithm analysis and bounds
+- Data structures
+	* Arrays and strings
+	* Linear lists and C implementation (STL and Java collections)
+	* Binary trees and C implementation (STL and Java collections)
+	* Stacks, queues and C implementation (STL and Java collections)
+	* Hash tables and C implementation (STL and Java collections)
+	* Priority queue and C implementation (STL and Java collections)
+	* Suffix trees and C implementation
+	* Set data structures and C implementation (STL and Java collections)
+- Problem solving paradigms
+	* Brute force
+	* Sorting and searching
+	* Greedy
+	* Dynamic programming
+	* Combinatorial search and heuristics
+- Algorithms on graphs
+	* Graph representation
+	* Graph traversal
+	* Algorithms of Minimum Spanning Trees
+	* Algorithms of Best Paths
+	* Algorithms of Bipartite Graphs and Flow Networks
+	* Some graph problems
+- Algorithms on strings
+- Computational geometry
+	* Data structures and implementation
+- Topics in mathematics
+	* Numerical problems
+	* Combinatorial problems
