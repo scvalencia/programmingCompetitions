@@ -37,6 +37,10 @@
 * [CMU](http://contest.cs.cmu.edu/295/s16/)
 * [NUS](http://www.comp.nus.edu.sg/~stevenha/cs3233.html)
 * [USYD](http://rp-www.cs.usyd.edu.au/~gramoli/ens/progcomp/php/info5010.php)
+* [Reykjavík University](https://algo.is/competitive-programming-course/)
+* [Reykjavík University 2016](https://algo.is/t-414-aflv-competitive-programming-course-2016/)
+* [Skiena](http://www3.cs.stonybrook.edu/~skiena/392/)
+* [Skiena videos](https://www.youtube.com/watch?v=3dkbFf82_b8&list=PL07B3F10B48592010)
 
 ### Resources and Topics
 
@@ -47,20 +51,38 @@
 * [e-maxx.ru](https://translate.google.com/translate?hl=en&sl=ru&u=http://e-maxx.ru/&prev=search)
 * [Top 10 Algorithms and Data Structures for Competitive Programming](http://www.geeksforgeeks.org/top-algorithms-and-data-structures-for-competitive-programming/)
 * [Java collections framework](https://en.wikipedia.org/wiki/Java_collections_framework)
+* [Geeks for geeks: fundametals of algorithms](http://www.geeksforgeeks.org/fundamentals-of-algorithms/)
+* [Tushar Roy](https://www.youtube.com/user/tusharroy2525)
+* [What is the best strategy to improve my skills in competitive programming in 2-3 months?](https://www.quora.com/What-is-the-best-strategy-to-improve-my-skills-in-competitive-programming-in-2-3-months)
+* [How can I become good at competitive programming? Are there any courses that will take me one step forward before I start doing SPOJ or TopCoder problems?](https://www.quora.com/How-can-I-become-good-at-competitive-programming-Are-there-any-courses-that-will-take-me-one-step-forward-before-I-start-doing-SPOJ-or-TopCoder-problems)
 
 #### Dynamic programming
 
 * [Dynamic Programming Practice Problems](https://people.cs.clemson.edu/~bcdean/dp_practice/)
 * [Are there any good resources or tutorials for dynamic programming besides the TopCoder tutorial?](https://www.quora.com/Are-there-any-good-resources-or-tutorials-for-dynamic-programming-besides-the-TopCoder-tutorial)
+* [Dynamic Programming Resources](https://www.cs.northwestern.edu/academics/courses/311/html/dp.html)
+* [If you had to study Dynamic Programming from scratch again, how would you go about it?](https://www.quora.com/If-you-had-to-study-Dynamic-Programming-from-scratch-again-how-would-you-go-about-it)
 
 #### Motivation
 
 * [Getting started with the sport of competitive programming](https://www.hackerearth.com/notes/getting-started-with-the-sport-of-programming/)
+* [Learn to Code by Competitive Programming](http://blog.hackerearth.com/2013/09/competitive-programming-getting-started_11.html)
+* [How to pass a programming interview](http://blog.triplebyte.com/how-to-pass-a-programming-interview)
 
 #### Algorithms and data structures
 
 * [Visualgo: visualising data structures and algorithms through animation](http://visualgo.net/)
 * [Open Data Structures](http://algoviz.org/OpenDSA/Books/OpenDSA/html/index.html#)
+* [Faster Coding Interview Preparation using Visualizations](https://www.educative.io/collection/5642554087309312/5679846214598656?authorName=Coderust)
+* [A Visual Introduction to Algorithms](https://www.educative.io/collection/10370001/760001?authorName=Educative%20CS)
+* [Data Structures in Javascript with Interactive Visualizations & Exercises](https://www.educative.io/collection/10370001/160001?authorName=Educative%20CS)
+* [Skiena, analysis of algorithms](https://www.youtube.com/watch?v=ZFjhkohHdAA&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
+* [Skiena, algorithms course](http://www3.cs.stonybrook.edu/~algorith/video-lectures/)
+* [UNSW Algorithms course](http://cgi.cse.unsw.edu.au/~cs3121/resources.php)
+* [Design and Analysis of Algorithms](https://en.wikiversity.org/wiki/Design_and_Analysis_of_Algorithms)
+* [How can I learn data structures effectively?](https://www.quora.com/How-can-I-learn-data-structures-effectively)
+* [What are some good resources to learn algorithms?](https://www.quora.com/What-are-some-good-resources-to-learn-algorithms)
+* [Some algorithms](http://algorithms.tutorialhorizon.com/)
 
 #### Modular arithmetic
 
@@ -72,10 +94,16 @@
 #### Bit manipulation
 
 * [Bit Manipulation & Recursion: Dreadful combination?, Probably not...](https://loveforprogramming.quora.com/Bit-Manipulation-Recursion-Dreadful-combination-Probably-not)
+* [Bit Twiddling Hacks](http://graphics.stanford.edu/~seander/bithacks.html#CopyIntegerSign)
 
 #### General mathematics
 
 * [What are some must-know topics in discrete math and probability for competitive programming?](https://www.quora.com/What-are-some-must-know-topics-in-discrete-math-and-probability-for-competitive-programming)
+* [Which topics of mathematics are important if I want to excel in competitive programming?](https://www.quora.com/Which-topics-of-mathematics-are-important-if-I-want-to-excel-in-competitive-programming)
+
+#### Discrete mathematics
+
+* [Skiena](http://www3.cs.stonybrook.edu/~algorith/math-video/)
 
 #### Data types
 
