@@ -55,6 +55,7 @@
 #### Algorithms for competitive programming
 
 * [Algorithms for competitive programming](https://acmcairoscience.wordpress.com/2015/04/07/algorithms-for-competitive-programming/)
+* [10 Puzzle Websites to Sharpen Your Programming Skills](http://sixrevisions.com/resources/10-puzzle-websites-to-sharpen-your-programming-skills/)
 * [Code Monk, This series aims to take your programming skills to the next level](https://www.hackerearth.com/codemonk/)
 * [Topcoder tutorials](https://www.topcoder.com/community/data-science/data-science-tutorials/)
 * [e-maxx.ru](https://translate.google.com/translate?hl=en&sl=ru&u=http://e-maxx.ru/&prev=search)
@@ -63,6 +64,7 @@
 * [Java collections framework](https://en.wikipedia.org/wiki/Java_collections_framework)
 * [Geeks for geeks: fundametals of algorithms](http://www.geeksforgeeks.org/fundamentals-of-algorithms/)
 * [Tushar Roy](https://www.youtube.com/user/tusharroy2525)
+* [Algorithms with Attitude](https://www.youtube.com/channel/UCUGQA2H6AXFolADHf9mBb4Q)
 * [What is the best strategy to improve my skills in competitive programming in 2-3 months?](https://www.quora.com/What-is-the-best-strategy-to-improve-my-skills-in-competitive-programming-in-2-3-months)
 * [What basic data structures and algorithms should one learn before starting competitive programming?](https://www.quora.com/What-basic-data-structures-and-algorithms-should-one-learn-before-starting-competitive-programming)
 * [How can I become good at competitive programming? Are there any courses that will take me one step forward before I start doing SPOJ or TopCoder problems?](https://www.quora.com/How-can-I-become-good-at-competitive-programming-Are-there-any-courses-that-will-take-me-one-step-forward-before-I-start-doing-SPOJ-or-TopCoder-problems)
@@ -84,6 +86,7 @@
 * [A list of great algorithms courses](https://github.com/prakhar1989/awesome-courses#algorithms)
 * [PEG](http://wcipeg.com/wiki/Special:AllPages)
 * [Hackerearth notes](https://www.hackerearth.com/notes/trending/)
+* [Stanford CS Education Library](http://cslibrary.stanford.edu/)
 
 
 #### Dynamic programming
@@ -140,6 +143,7 @@
 * [Which topics of mathematics are important if I want to excel in competitive programming?](https://www.quora.com/Which-topics-of-mathematics-are-important-if-I-want-to-excel-in-competitive-programming)
 * [Introduction to Higher Mathematics](https://www.youtube.com/playlist?list=PLZzHxk_TPOStgPtqRZ6KzmkUQBQ8TSWVX)
 * [Boris Bukh](http://www.borisbukh.org/)
+* [What important topics of number theory should every programmer know?](https://www.quora.com/What-important-topics-of-number-theory-should-every-programmer-know)
 
 #### Discrete mathematics
 
