@@ -33,9 +33,10 @@
 
 * [Stanford](http://web.stanford.edu/class/cs97si/)
 * [Stanford ACM-ICPC related materials](https://github.com/jaehyunp/stanfordacm)
+* [CMU I](https://www.cs.cmu.edu/~eugene/teach/acm06b/)
 * [MIT](http://web.mit.edu/acmicpc/www/)
 * [Cornell](http://www.cs.cornell.edu/~wdtseng/icpc/)
-* [CMU](http://contest.cs.cmu.edu/295/s16/)
+* [CMU II](http://contest.cs.cmu.edu/295/s16/)
 * [NUS](http://www.comp.nus.edu.sg/~stevenha/cs3233.html)
 * [USYD](http://rp-www.cs.usyd.edu.au/~gramoli/ens/progcomp/php/info5010.php)
 * [Reykjavík University](https://algo.is/competitive-programming-course/)
