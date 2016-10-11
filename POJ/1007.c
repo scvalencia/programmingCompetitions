@@ -11,7 +11,6 @@ int string_cmp(const void *a, const void *b) {
     return strcmp(ia, ib);
 }
 
-
 int main(int argc, char const *argv[]) {
 	int size, cases, i = 0;
 	scanf("%d %d", &size, &cases);
