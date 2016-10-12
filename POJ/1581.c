@@ -54,7 +54,7 @@ void displayTeam(struct team currentTeam) {
 int main(int argc, char const *argv[]) {
 
 	int numTeams, i = 0;
-	int* data = (int*) malloc(sizeof(int) * 8);
+	int* data = (int*) malloc(sizeof(int) * (NUM_PROBLEMS * 2));
 	char name[MAX_TEAM_NAME_SIZE];
 
 	struct team winner = initTeam("DUMMY");
