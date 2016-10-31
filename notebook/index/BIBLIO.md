@@ -38,6 +38,7 @@
 * [Cornell](http://www.cs.cornell.edu/~wdtseng/icpc/)
 * [CMU II](http://contest.cs.cmu.edu/295/s16/)
 * [NUS](http://www.comp.nus.edu.sg/~stevenha/cs3233.html)
+* [NUS 2](https://sites.google.com/site/stevenhalim/home/material)
 * [USYD](http://rp-www.cs.usyd.edu.au/~gramoli/ens/progcomp/php/info5010.php)
 * [Reykjavík University](https://algo.is/competitive-programming-course/)
 * [Reykjavík University 2016](https://algo.is/t-414-aflv-competitive-programming-course-2016/)
@@ -56,6 +57,7 @@
 #### Algorithms for competitive programming
 
 * [Algorithms for competitive programming](https://acmcairoscience.wordpress.com/2015/04/07/algorithms-for-competitive-programming/)
+* [Programming, algorithms and data structures](https://algocoding.wordpress.com/)
 * [10 Puzzle Websites to Sharpen Your Programming Skills](http://sixrevisions.com/resources/10-puzzle-websites-to-sharpen-your-programming-skills/)
 * [Code Monk, This series aims to take your programming skills to the next level](https://www.hackerearth.com/codemonk/)
 * [Topcoder tutorials](https://www.topcoder.com/community/data-science/data-science-tutorials/)
