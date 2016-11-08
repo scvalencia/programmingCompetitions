@@ -65,6 +65,7 @@ bool case6(int n, char matrix[n][n], char base[n][n]) {
 		for(j = 0; j < n; j++)
 			if(matrix[i][j] != base[i][j])
 				return false;
+			
 	return true;
 }
 
@@ -96,8 +97,8 @@ void print(int size, char matrix[size][size]) {
 }
 
 int main(int argc, char const *argv[]) {
-	FILE *fin  = fopen ("transform.in", "r");
-    FILE *fout = fopen ("transform.out", "w");
+	FILE *fin  = fopen("transform.in", "r");
+    FILE *fout = fopen("transform.out", "w");
 
     char c;
     int size, i, j, sel;
