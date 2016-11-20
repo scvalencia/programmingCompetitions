@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define MODULO 10000000007
+#define MODULO 1000000007
 
 int main(int argc, char const *argv[]) {
 	int n, i;
@@ -12,15 +12,10 @@ int main(int argc, char const *argv[]) {
 	for(i = 0; i < n; i++)
 		scanf("%d", &array[i]);
 
-	for(i = 0; i < n; i++)
-		printf("%d ", array[i]);
-
-	printf("\n");
-
 	long product = 1L;
 
 	for(i = 0; i < n; i++) {
-		int current = array[i];
+		int current = array[i] % MODULO;
 		product = (current * (product % MODULO)) % MODULO;
 	}
 
