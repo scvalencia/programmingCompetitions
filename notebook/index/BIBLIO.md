@@ -11,6 +11,7 @@
 * [Skiena-Programming Challenges](http://www.amazon.com/Programming-Challenges-Contest-Training-Computer/dp/0387001638?ie=UTF8&keywords=skiena&qid=1465281645&ref_=sr_1_3&s=books&sr=1-3)
 * [Skiena-The Algorithm Design Manual](http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1848000693?ie=UTF8&keywords=skiena&qid=1465281645&ref_=sr_1_1&s=books&sr=1-1)
 * [Wu-Data Structure Practice](http://www.amazon.com/Data-Structure-Practice-Collegiate-Programming/dp/148221539X?ie=UTF8&keywords=wu%20data%20structures&qid=1465281662&ref_=sr_1_1&s=books&sr=1-1)
+* [What are some good books for competitive programming?](https://www.quora.com/What-are-some-good-books-for-competitive-programming)
 
 ### C programming
 
@@ -51,6 +52,7 @@
 * [Amrita Infosys Programming Contest Camp](https://www.youtube.com/playlist?list=PL713C10F05D6BB7BF)
 * [Georgiatech](https://www.youtube.com/playlist?list=PL06D0AE2C26C9123B)
 * [Junior Training Sheet](https://docs.google.com/spreadsheets/d/1iJZWP2nS_OB3kCTjq8L6TrJJ4o-5lhxDOyTaocSYc-k/edit#gid=169095902)
+* [Arabic Competitive Programming](https://www.youtube.com/user/nobody123497/playlists)
 
 ### Resources and Topics
 
@@ -90,6 +92,7 @@
 * [PEG](http://wcipeg.com/wiki/Special:AllPages)
 * [Hackerearth notes](https://www.hackerearth.com/notes/trending/)
 * [Stanford CS Education Library](http://cslibrary.stanford.edu/)
+* [How do I get better at understanding how to solve TopCoder problems?](https://www.quora.com/How-do-I-get-better-at-understanding-how-to-solve-TopCoder-problems)
 
 
 #### Dynamic programming
@@ -105,12 +108,14 @@
 * [Getting started with the sport of competitive programming](https://www.hackerearth.com/notes/getting-started-with-the-sport-of-programming/)
 * [Learn to Code by Competitive Programming](http://blog.hackerearth.com/2013/09/competitive-programming-getting-started_11.html)
 * [How to pass a programming interview](http://blog.triplebyte.com/how-to-pass-a-programming-interview)
+* [Beginners guide to Competitive programming](http://shivamkhandelwal.in/beginners-guide-to-competitive-programming/)
 
 #### Online judges
 
 * [Polygon: Professional way to prepare programming contest problem](https://polygon.codeforces.com/cp?ccid=bc51fba9421ce9708c19e1a5bbf82d21)
 * [Virtual Judge](http://acm.hust.edu.cn/vjudge/toIndex.action)
 * [BNUOJ](https://www.bnuoj.com/v3/)
+* [What are some of the best websites to learn competitive coding?](https://www.quora.com/What-are-some-of-the-best-websites-to-learn-competitive-coding)
 
 #### Algorithms and data structures
 
@@ -127,6 +132,8 @@
 * [What are some good resources to learn algorithms?](https://www.quora.com/What-are-some-good-resources-to-learn-algorithms)
 * [Some algorithms](http://algorithms.tutorialhorizon.com/)
 * [Shai Simonson Algorithms Course](http://www.aduni.org/courses/algorithms/)
+* [A curated list of awesome Competitive Programming, Algorithm and Data Structure resources](https://github.com/lnishan/awesome-competitive-programming)
+* [Patrascu: Some Olympiad Problems](http://people.csail.mit.edu/mip/probs.html)
 
 #### Modular arithmetic
 
@@ -134,6 +141,7 @@
 * [Hackerearth on Modular arithmetic II](https://www.hackerearth.com/notes/abhinav92003/why-output-the-answer-modulo-109-7/)
 * [Modular Arithmetic Properties](http://theoryofprogramming.com/2014/12/24/modular-arithmetic-properties/)
 * [What exactly is "print it modulo 10^9 + 7" in competitive programming websites?](https://www.quora.com/What-exactly-is-print-it-modulo-10-9-+-7-in-competitive-programming-websites)
+* [Modular Arithmetic Properties](http://theoryofprogramming.com/2014/12/24/modular-arithmetic-properties/)
 
 #### Bit manipulation
 
@@ -147,6 +155,10 @@
 * [Introduction to Higher Mathematics](https://www.youtube.com/playlist?list=PLZzHxk_TPOStgPtqRZ6KzmkUQBQ8TSWVX)
 * [Boris Bukh](http://www.borisbukh.org/)
 * [What important topics of number theory should every programmer know?](https://www.quora.com/What-important-topics-of-number-theory-should-every-programmer-know)
+* [MathBlog](http://www.mathblog.dk)
+* [How can I improve my abilities in number theory for competitive programming?](https://www.quora.com/How-can-I-improve-my-abilities-in-number-theory-for-competitive-programming)
+* [What are some good books on combinatorics, geometry, and number theory to prepare for competitive programming? Please provide the resources, if available.](https://www.quora.com/What-are-some-good-books-on-combinatorics-geometry-and-number-theory-to-prepare-for-competitive-programming-Please-provide-the-resources-if-available)
+* [What book should I consider for number theory for competitive programming?](https://www.quora.com/What-book-should-I-consider-for-number-theory-for-competitive-programming)
 
 #### Discrete mathematics
 
@@ -192,7 +204,8 @@
 * [Anudeep's blog](https://blog.anudeep2011.com/)
 * [Vexorian's blog](http://www.vexorian.com/)
 * [Fushar's Blog](http://fusharblog.com/)
-* [A curated list of awesome Competitive Programming, Algorithm and Data Structure resources](https://github.com/lnishan/awesome-competitive-programming)
+* [Amy Knuth](https://www.youtube.com/channel/UCLApsra6s1A7IrDefL472-g/videos)
+
 
 
 
