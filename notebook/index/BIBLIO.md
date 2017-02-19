@@ -34,6 +34,7 @@
 
 * [Stanford](http://web.stanford.edu/class/cs97si/)
 * [Stanford ACM-ICPC related materials](https://github.com/jaehyunp/stanfordacm)
+* [Baylor 2015 - CSI 4144: Competitive Learning](http://cs.baylor.edu/~hamerly/courses/4144_15f/#textbooks)
 * [CMU I](https://www.cs.cmu.edu/~eugene/teach/acm06b/)
 * [MIT](http://web.mit.edu/acmicpc/www/)
 * [Cornell](http://www.cs.cornell.edu/~wdtseng/icpc/)
@@ -59,6 +60,7 @@
 #### Algorithms for competitive programming
 
 * [Algorithms for competitive programming](https://acmcairoscience.wordpress.com/2015/04/07/algorithms-for-competitive-programming/)
+* [The algorithms required to solve all problems (using C++) in any competitive coding contest](https://www.reddit.com/r/programming/comments/2kax45/the_algorithms_required_to_solve_all_problems/)
 * [Programming, algorithms and data structures](https://algocoding.wordpress.com/)
 * [10 Puzzle Websites to Sharpen Your Programming Skills](http://sixrevisions.com/resources/10-puzzle-websites-to-sharpen-your-programming-skills/)
 * [Code Monk, This series aims to take your programming skills to the next level](https://www.hackerearth.com/codemonk/)
