@@ -33,9 +33,15 @@
 ### Competitive programming courses
 
 * [Stanford](http://web.stanford.edu/class/cs97si/)
+* [McGill](http://www.cs.mcgill.ca/~dbecer/courses/Winter2017/comp321.html)
+* [Linköpings universitet](https://www.ida.liu.se/~TDDD95/exam/exercises.en.shtml)
+* [Linköpings universitet @ Kattis](https://liu.kattis.com/courses/AAPS/AAPS17)
+* [Baylor](http://cs.baylor.edu/~hamerly/courses/4v96_15s/)
 * [Stanford ACM-ICPC related materials](https://github.com/jaehyunp/stanfordacm)
 * [Baylor 2015 - CSI 4144: Competitive Learning](http://cs.baylor.edu/~hamerly/courses/4144_15f/#textbooks)
 * [CMU I](https://www.cs.cmu.edu/~eugene/teach/acm06b/)
+* [15-295: Competition Programming and Problem Solving @ CMU](https://contest.cs.cmu.edu/295/)
+* [Programming Competition Lectures](https://www.youtube.com/user/gtprogrammingteam)
 * [MIT](http://web.mit.edu/acmicpc/www/)
 * [Cornell](http://www.cs.cornell.edu/~wdtseng/icpc/)
 * [CMU II](http://contest.cs.cmu.edu/295/s16/)
@@ -46,6 +52,7 @@
 * [Reykjavík University 2016](https://algo.is/t-414-aflv-competitive-programming-course-2016/)
 * [Skiena](http://www3.cs.stonybrook.edu/~skiena/392/)
 * [Skiena videos](https://www.youtube.com/watch?v=3dkbFf82_b8&list=PL07B3F10B48592010)
+* [http://www.algorist.com/programming_challenges/](http://www.algorist.com/programming_challenges/)
 * [Baylor](http://cs.baylor.edu/~hamerly/courses/4v96_14s/#practical)
 * [Github: An introductory course on Competitive Programming](https://github.com/paul-g/brabble)
 * [WUSTL](https://acm.wustl.edu/cse232/)
@@ -60,6 +67,7 @@
 #### Algorithms for competitive programming
 
 * [Algorithms for competitive programming](https://acmcairoscience.wordpress.com/2015/04/07/algorithms-for-competitive-programming/)
+* [Amrita Infosys Programming Contest Camp](https://www.youtube.com/playlist?list=PL713C10F05D6BB7BF)
 * [The algorithms required to solve all problems (using C++) in any competitive coding contest](https://www.reddit.com/r/programming/comments/2kax45/the_algorithms_required_to_solve_all_problems/)
 * [Programming, algorithms and data structures](https://algocoding.wordpress.com/)
 * [10 Puzzle Websites to Sharpen Your Programming Skills](http://sixrevisions.com/resources/10-puzzle-websites-to-sharpen-your-programming-skills/)
@@ -100,6 +108,7 @@
 #### Dynamic programming
 
 * [Dynamic Programming Practice Problems](https://people.cs.clemson.edu/~bcdean/dp_practice/)
+* [YouTube - Dynamic Programming](https://www.youtube.com/results?sp=SCjqAwA%253D&q=dynamic+programming)
 * [Are there any good resources or tutorials for dynamic programming besides the TopCoder tutorial?](https://www.quora.com/Are-there-any-good-resources-or-tutorials-for-dynamic-programming-besides-the-TopCoder-tutorial)
 * [Dynamic Programming Resources](https://www.cs.northwestern.edu/academics/courses/311/html/dp.html)
 * [If you had to study Dynamic Programming from scratch again, how would you go about it?](https://www.quora.com/If-you-had-to-study-Dynamic-Programming-from-scratch-again-how-would-you-go-about-it)
@@ -129,6 +138,7 @@
 * [Skiena, analysis of algorithms](https://www.youtube.com/watch?v=ZFjhkohHdAA&list=PLOtl7M3yp-DV69F32zdK7YJcNXpTunF2b)
 * [Skiena, algorithms course](http://www3.cs.stonybrook.edu/~algorith/video-lectures/)
 * [UNSW Algorithms course](http://cgi.cse.unsw.edu.au/~cs3121/resources.php)
+* [UNSWLearning Algorithms course](https://www.youtube.com/playlist?list=PLE621E25B3BF8B9D1)
 * [Design and Analysis of Algorithms](https://en.wikiversity.org/wiki/Design_and_Analysis_of_Algorithms)
 * [How can I learn data structures effectively?](https://www.quora.com/How-can-I-learn-data-structures-effectively)
 * [What are some good resources to learn algorithms?](https://www.quora.com/What-are-some-good-resources-to-learn-algorithms)
@@ -161,6 +171,11 @@
 * [How can I improve my abilities in number theory for competitive programming?](https://www.quora.com/How-can-I-improve-my-abilities-in-number-theory-for-competitive-programming)
 * [What are some good books on combinatorics, geometry, and number theory to prepare for competitive programming? Please provide the resources, if available.](https://www.quora.com/What-are-some-good-books-on-combinatorics-geometry-and-number-theory-to-prepare-for-competitive-programming-Please-provide-the-resources-if-available)
 * [What book should I consider for number theory for competitive programming?](https://www.quora.com/What-book-should-I-consider-for-number-theory-for-competitive-programming)
+* [Where can I get the best online tutorials on number theory for competitive programming?](https://www.quora.com/Where-can-I-get-the-best-online-tutorials-on-number-theory-for-competitive-programming)
+* [Math for Competitive Programming](https://www.youtube.com/playlist?list=PLPt2dINI2MIY7l5zyFd1W28rei3b-AXaJ)
+* [Number Theory Tutorial, Competitive Programming (Codechef)](http://vscrux.blogspot.com.co/2014/11/number-theory-tutorial-competitive.html)
+* [A Bunch of Stuff - Number Theory in Competitive Programming](https://artofproblemsolving.com/community/c90633h1291397)
+* [Mark Herkommer - Number Theory: A Programmer's Guide](https://www.amazon.com/Number-Theory-Programmers-Mark-Herkommer/dp/0079130747)
 
 #### Discrete mathematics
 
@@ -207,6 +222,7 @@
 * [Vexorian's blog](http://www.vexorian.com/)
 * [Fushar's Blog](http://fusharblog.com/)
 * [Amy Knuth](https://www.youtube.com/channel/UCLApsra6s1A7IrDefL472-g/videos)
+* [Red-Green-Code](https://www.redgreencode.com/)
 
 
 
