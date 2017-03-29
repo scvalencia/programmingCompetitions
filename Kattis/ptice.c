@@ -35,7 +35,6 @@ int main(int argc, char const *argv[]) {
 	}
 
 	max = MAX(ac, MAX(bc, gc));
-
 	printf("%d\n", max);
 
 	if(max == ac)
