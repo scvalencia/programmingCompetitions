@@ -155,6 +155,7 @@
 * [Shai Simonson Algorithms Course](http://www.aduni.org/courses/algorithms/)
 * [A curated list of awesome Competitive Programming, Algorithm and Data Structure resources](https://github.com/lnishan/awesome-competitive-programming)
 * [Patrascu: Some Olympiad Problems](http://people.csail.mit.edu/mip/probs.html)
+* [Great Algorithms Course @ Texas A&M](http://faculty.cse.tamu.edu/djimenez/ut/utsa/cs3343/)
 
 #### Modular arithmetic
 
@@ -232,6 +233,7 @@
 * [Fushar's Blog](http://fusharblog.com/)
 * [Amy Knuth](https://www.youtube.com/channel/UCLApsra6s1A7IrDefL472-g/videos)
 * [Red-Green-Code](https://www.redgreencode.com/)
+* [Techie Delight](http://www.techiedelight.com)
 
 
 
