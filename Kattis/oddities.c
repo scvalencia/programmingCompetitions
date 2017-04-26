@@ -8,5 +8,6 @@ int main(int argc, char const *argv[]) {
 		scanf("%d", &n);
 		printf("%d is %s\n", n, (n % 2 == 0) ? "even" : "odd");
 	}
+	
 	return 0;
 }
