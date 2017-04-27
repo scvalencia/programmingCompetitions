@@ -6,5 +6,6 @@ int main(int argc, char const *argv[]) {
 		(num + den != 0)) {
 			printf("%d %d / %d\n", (num / den), (num % den), den);
 	}
+	
 	return 0;
 }
