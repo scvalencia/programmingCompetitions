@@ -35,12 +35,10 @@ public class collatz {
 
             int idxa = 0, idxb = 0;
 
-            for(; idxa < Math.max(sa.size(), sb.size()); idxa++) {
+            for(; idxa < Math.max(sa.size(), sb.size()); idxa++)
                 if(idxa < sa.size())
                     System.out.println(sa.get(idxa));
-            }
-                    
+           
         }
-
     }
 }
