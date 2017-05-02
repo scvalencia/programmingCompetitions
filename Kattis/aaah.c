@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-
 int main(int argc, char const *argv[]) {
 	char* able = (char*) malloc(sizeof(char) * 1000);
 	char* actual = (char*) malloc(sizeof(char) * 1000);
