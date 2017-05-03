@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 #define CMP(a, b, c) ((a) < (b)) && ((b) < (c))
 
 int main(int argc, char const *argv[]) {
