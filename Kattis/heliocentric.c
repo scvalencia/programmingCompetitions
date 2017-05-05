@@ -19,7 +19,6 @@ int main(int argc, char const *argv[]) {
 		}
 
 		printf("Case %d: %d\n", ++currentCase, days);
-
 	}
 
 	return 0;
