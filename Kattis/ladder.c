@@ -15,6 +15,5 @@ int main(int argc, char const *argv[]) {
 	rate *= h;
 	
 	printf("%d\n", (int) ceil(sqrt(h * h + rate * rate)));
-	
 	return 0;
 }
