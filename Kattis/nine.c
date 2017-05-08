@@ -20,9 +20,11 @@ int main(int argc, char const *argv[]) {
 	int TC;
 	long long int d;
 	scanf("%d", &TC);
+	
 	while(TC--) {		
 		scanf("%lld", &d);
 		printf("%lld\n", (8 * ((fast_pow(9, d - 1)) % M)) % M);
 	}
+
 	return 0;
 }
