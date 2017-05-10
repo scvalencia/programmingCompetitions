@@ -13,7 +13,6 @@ public class raggedright {
             int length = line.length();
 
             if(length > max) max = length;
-
             lengths.add(length);
         }
 
