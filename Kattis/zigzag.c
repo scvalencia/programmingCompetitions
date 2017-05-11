@@ -47,6 +47,5 @@ int main(int argc, char const *argv[]) {
 		printf("%c", nametag[i]);
 
 	printf("\n");
-
 	return 0;
 }
