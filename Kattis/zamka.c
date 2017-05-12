@@ -30,8 +30,6 @@ int main(int argc, char const *argv[]) {
 			printf("%d\n", i);
 			break;
 		}
-
-
-
+		
 	return 0;
 }
