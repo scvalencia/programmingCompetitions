@@ -6,6 +6,5 @@ int main(int argc, char const *argv[]) {
 	scanf("%d", &n);
 
 	printf("%s\n", (n % 2 == 0) ? "Bob" : "Alice");
-
 	return 0;
 }
