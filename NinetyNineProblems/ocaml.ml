@@ -51,15 +51,12 @@ let palindrome' xs = xs = reverse xs
 
 (* Flatten a nested list structure *)
 
+(* There is no nested list type in OCaml, so we need to define one first. 
+   A node of a nested list is either an element, or a list of nodes. 
+		
+		flatten [ One "a" ; Many [ One "b" ; Many [ One "c" ; One "d" ] ; One "e" ] ];;
+		- : string list = ["a"; "b"; "c"; "d"; "e"]
+
+*)
+
 type 'a node = One of 'a | Many of 'a node list
-
-let rec flatten xs = 
-
-	let rec aux = function
-		| One x        -> x
-		| Many (x::xs) -> aux x :: flatten xs
-
-	in 
-		match xs with
-			| [] -> []
-			| x::xs' -> aux 
