@@ -12,6 +12,7 @@ int main(int argc, char const *argv[]) {
 			max = sum;
 		}
 	}
+	
 	printf("%d %d\n", idx, max);
 	return 0;
 }
