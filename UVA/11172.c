@@ -1,18 +1,13 @@
 #include <stdio.h>
-#include <stdbool.h>
 
-int main(void) {
-	int cases;
-	scanf("%d", &cases);
-	while(cases--) {
-		int a, b;
-		scanf("%d %d", &a, &b);
-		if(a < b)
-			printf("<\n");
-		else if(a > b)
-			printf(">\n");
-		else
-			printf("=\n");
-	}
-	return 0;
+int main() {
+
+    int TC, a, b;
+    scanf("%d", &TC);
+
+    while(TC--) {
+        scanf("%d %d", &a, &b);
+        printf("%c\n", (a == b) ? '=' : ((a < b) ? '<' : '>'));
+    }
+
 }

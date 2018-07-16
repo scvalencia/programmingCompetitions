@@ -4,9 +4,7 @@
 int main(int argc, char **argv) {
 
 	char input[10];
-
 	while(gets(input))
-		puts(input);
-        	
+		puts(input);	
 	return 0;
 }
